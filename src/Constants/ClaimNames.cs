@@ -23,7 +23,7 @@ namespace Delobytes.AspNetCore.Common.Constants
         public const string uid = nameof(uid);
         public const string tid = nameof(tid);
         public const string email = nameof(email);
-        public const string emailVerified = nameof(emailVerified);
+        public const string email_verified = nameof(email_verified);
         public const string username = nameof(username);
         public const string role = nameof(role);
         public const string externalId = nameof(externalId);
