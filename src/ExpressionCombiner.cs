@@ -5,7 +5,7 @@ namespace Delobytes.AspNetCore.Common
 {
     public static class ExpressionCombiner
     {
-        public static Expression<Func<T, bool>> Combine<T>(Expression<Func<T, bool>> expression1, Expression<Func<T, bool>> expression2)
+        public static Expression<Func<T, bool>>? Combine<T>(Expression<Func<T, bool>> expression1, Expression<Func<T, bool>> expression2)
         {
             if (expression1 == null && expression2 == null)
             {
